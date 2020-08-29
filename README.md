@@ -12,6 +12,6 @@ To access my PI from anywhere, we use a service called Dynamic DNS or Domain Nam
 ### Configure the port forwarding to your PI
  We have a domain name that always redirects to our home network. However, our internet box (a.k.a router) doesn’t know how to deal with the incoming requests! We need to ask “Hey please, redirect incoming requests to the Raspberry Pi”. All routers are different, the best thing to do is to search “Port forwarding” on the web with your brand and model. I will highlight here the main things you’ll have to do, This the TCP layer which deals with process-process delivery.
  ![](https://hackernoon.com/hn-images/1*1TZhxFzf_U6OEKceMSR1CA.png)
--Internal Port: The port on the raspberry Pi where requests should be redirected to. In our case, the video stream server is at 8081.
+- Internal Port: The port on the raspberry Pi where requests should be redirected to. In our case, the video stream server is at 8081.
 
--External Port: We don’t want ALL requests redirect to our PI. Only those that are targeting the camera server. Since we are going to use a browser, or an app to access our Pi, we can request our home network with any port we want. (for example we will use http://mochi.ddns.net:XXXX). To make it simple, we used the same as the video stream server: 8081.
+- External Port: We don’t want ALL requests redirect to our PI. Only those that are targeting the camera server. Since we are going to use a browser, or an app to access our Pi, we can request our home network with any port we want. (for example we will use http://mochi.ddns.net:XXXX). To make it simple, we used the same as the video stream server: 8081.
