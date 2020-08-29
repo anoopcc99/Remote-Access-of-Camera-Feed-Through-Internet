@@ -6,5 +6,5 @@ However, most of home networks IP adresses change dynamically after a certain ti
 So we have to use a Fixed IP address which can be achieved by using DDNS Tool.
 ### Dynamic DNS with no-ip
 To access my PI from anywhere, we use a service called Dynamic DNS or Domain Name Server. What does it involve?
-- We choose a name for your home network that will redirect requests to an IP address stored on no-ip servers. Like http://mochi.ddns.net
+- We choose a name for our home network that will redirect requests to an IP address stored on no-ip servers. Like http://mochi.ddns.net
 - Should install the no-ip script in Raspberry PI. This will make sure that your home IP address stored on no-ip is always updated.
