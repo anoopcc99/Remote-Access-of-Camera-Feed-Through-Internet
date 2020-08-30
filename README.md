@@ -8,6 +8,7 @@ So we have to use a Fixed IP address which can be achieved by using DDNS Tool.
 To access my PI from anywhere, we use a service called Dynamic DNS or Domain Name Server. What does it involve?
 - We choose a name for our home network that will redirect requests to an IP address stored on no-ip servers. Like http://mochi.ddns.net
 - Should install the no-ip script in Raspberry PI. This will make sure that your home IP address stored on no-ip is always updated.
+![](https://github.com/anoopcc99/Remote-Access-of-Camera-Feed/edit/master/images/RemoteAccess1.png)
 
 ### Configure the port forwarding to your PI
  We have a domain name that always redirects to our home network. However, our internet box (a.k.a router) doesn’t know how to deal with the incoming requests! We need to ask “Hey please, redirect incoming requests to the Raspberry Pi”. All routers are different, the best thing to do is to search “Port forwarding” on the web with your brand and model. I will highlight here the main things you’ll have to do, This the TCP layer which deals with process-process delivery.
