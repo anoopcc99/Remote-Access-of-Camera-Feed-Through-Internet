@@ -4,6 +4,7 @@ In order to access your Raspberry Pi from anywhere, we need to be able to enter 
 
 However, most of home networks public and private IP adresses change dynamically after a certain time. So let’s say we use it directly to access your PI, it would only work for a short time and then we’ll need to go home and check it again.
 ![](https://domoticproject.com/wp-content/uploads/2017/12/InternalVsExternalIP.png)
+
 So to have Fixed internal IP address for Raspberry Pi we need to assign static IP address through DHCP Server.
 
 So we have to use a Fixed IP address which can be achieved by using DDNS Tool.
