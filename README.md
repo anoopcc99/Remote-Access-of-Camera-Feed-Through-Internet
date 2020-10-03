@@ -1,6 +1,5 @@
 # Remote-Access-of-Camera-Feed-Through-Internet
 In order to access your Raspberry Pi from anywhere, we need to be able to enter our home network! What is the only way of accessing it from anywhere? our IP address! It’s basically like a home address but on the internet.
-![](https://github.com/anoopcc99/Remote-Access-of-Camera-Feed/blob/master/images/RemoteAccess1.png)
 
 However, most of home networks public and private IP adresses change dynamically after a certain time. So let’s say we use it directly to access your PI, it would only work for a short time and then we’ll need to go home and check it again.
 ![](https://domoticproject.com/wp-content/uploads/2017/12/InternalVsExternalIP.png)
@@ -19,3 +18,4 @@ To access our PI from anywhere, we use a service called Dynamic DNS or Domain Na
 - Internal Port: The port on the raspberry Pi where requests should be redirected to. In our case, the video stream server is at 8081.
 
 - External Port: We don’t want ALL requests redirect to our PI. Only those that are targeting the camera server. Since we are going to use a browser, or an app to access our Pi, we can request our home network with any port we want. (for example we will use http://mochi.ddns.net:XXXX). To make it simple, we used the same as the video stream server: 8081.
+![](https://github.com/anoopcc99/Remote-Access-of-Camera-Feed/blob/master/images/RemoteAccess1.png)
